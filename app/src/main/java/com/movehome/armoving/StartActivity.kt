@@ -21,6 +21,7 @@ class StartActivity : AppCompatActivity() {
         val BTN_bath = findViewById<Button>(R.id.btn_bath)
         val BTN_reading = findViewById<Button>(R.id.btn_reading)
         val etMessage = findViewById(R.id.custom) as EditText
+<<<<<<< HEAD
         button.setOnClickListener {
             val intent = Intent(this, MeasuringActivity::class.java)
             startActivity(intent)
@@ -38,6 +39,21 @@ class StartActivity : AppCompatActivity() {
             editText.setTextColor(Color.BLACK)
         }
 
+=======
+
+        BTN_living.setOnClickListener {
+            val editText = findViewById(R.id.custom) as EditText
+            editText.setText("客廳", TextView.BufferType.EDITABLE)
+            editText.setTextColor(Color.BLACK)
+        }
+
+        BTN_kitchen.setOnClickListener {
+            val editText = findViewById(R.id.custom) as EditText
+            editText.setText("廚房", TextView.BufferType.EDITABLE)
+            editText.setTextColor(Color.BLACK)
+        }
+
+>>>>>>> dd41ffa0144c8bc6cca38f47de041dcd5155d4c9
         BTN_bath.setOnClickListener {
             val editText = findViewById(R.id.custom) as EditText
             editText.setText("浴室", TextView.BufferType.EDITABLE)
@@ -55,7 +71,13 @@ class StartActivity : AppCompatActivity() {
 
             //check if the EditText have values or not
             if(msg.trim().length>0) {
+<<<<<<< HEAD
                 val intent = Intent(this, MeasuringActivity::class.java)
+=======
+                //passing value to the next page
+                val intent = Intent(this, MainActivity::class.java)
+                intent.putExtra("Page", msg)
+>>>>>>> dd41ffa0144c8bc6cca38f47de041dcd5155d4c9
                 startActivity(intent)
             }else{
                 Toast.makeText(applicationContext, "請輸入所在位置! ", Toast.LENGTH_SHORT).show()
