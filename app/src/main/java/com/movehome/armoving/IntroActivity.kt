@@ -20,7 +20,7 @@ class IntroActivity : AppCompatActivity() {
             _IntroButton!!.isEnabled = true
 
             startActivity(Intent(this, SignupActivity::class.java))
-            finish()
+//            finish()
         }
     }
 }
