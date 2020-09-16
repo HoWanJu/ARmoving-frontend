@@ -5,7 +5,13 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature android:name="android.hardware.camera.ar" />
+<<<<<<< HEAD
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+=======
+    <uses-feature android:name="android.hardware.camera.ar"
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
+        android:required="true"/>
 
     <application
         android:allowBackup="true"
@@ -13,16 +19,51 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SignupActivity"></activity>
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Measurement" />
+        <activity android:name=".SignupActivity"/>
         <activity android:name=".ThanksActivity" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".IntroActivity" />
+<<<<<<< HEAD
 <!--        <activity android:name=".FurnitureActivity" />-->
 <!--        <activity android:name=".MeasuringActivity" />-->
         <activity android:name=".MainActivity"/>
+=======
+<<<<<<< HEAD
+        <activity android:name=".FurnitureActivity" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<!--        <activity android:name=".MeasuringActivity" />-->
+=======
+        <activity android:name=".MeasuringActivity" />
+=======
+<!--        <activity android:name=".FurnitureActivity" />-->
+<<<<<<< HEAD
+<!--        <activity android:name=".MeasuringActivity" />-->
+        <activity android:name=".MainActivity"/>
+=======
+        <activity android:name=".Measurement" />
+        <activity android:name=".MainActivity"/>
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
+        <activity
+            android:name=".ArcoreMeasurement"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+<<<<<<< HEAD
+=======
+        <activity android:name=".MeasuringActivity" />
+>>>>>>> eec795d70d535bd0eab3e1d0c2ca38291b94db0f
+=======
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
+>>>>>>> dd41ffa0144c8bc6cca38f47de041dcd5155d4c9
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
         <activity android:name=".StartActivity">
-            <intent-filter>
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

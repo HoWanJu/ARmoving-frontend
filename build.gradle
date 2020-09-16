@@ -35,3 +35,14 @@ allprojects {
         google()
     }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800

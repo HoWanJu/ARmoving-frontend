@@ -10,12 +10,17 @@
 
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/buttonAddPage"
+=======
+        android:id="@+id/buttonAddRoom"
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/fragmentParent"
         android:layout_alignRight="@+id/fragmentParent"
+<<<<<<< HEAD
         android:layout_alignBottom="@+id/editTextPageName"
         android:layout_marginEnd="66dp"
         android:layout_marginRight="66dp"
@@ -25,23 +30,54 @@
 
     <Button
         android:id="@+id/buttonNext"
+=======
+<<<<<<< HEAD
+        android:layout_alignBottom="@+id/total_price"
+=======
+        android:layout_alignBottom="@+id/editTextPageName"
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="0dp"
+        android:text="新增房間" />
+
+
+    <Button
+        android:id="@+id/buttonDone"
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/fragmentParent"
         android:layout_alignRight="@+id/fragmentParent"
+<<<<<<< HEAD
         android:layout_alignBottom="@+id/editTextPageName"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="-1dp"
         android:text="OK" />
+=======
+<<<<<<< HEAD
+        android:layout_alignBottom="@+id/total_price"
+=======
+        android:layout_alignBottom="@+id/editTextPageName"
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="-1dp"
+        android:text="完成" />
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
 
     <fragment
         android:id="@+id/fragmentParent"
         android:name="com.movehome.armoving.FragmentParent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_above="@+id/buttonAddPage"
+=======
+        android:layout_above="@+id/buttonAddRoom"
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -49,12 +85,51 @@
         android:layout_alignParentRight="true"
         tools:layout="@layout/fragment_parent" />
 
+<<<<<<< HEAD
     <EditText
         android:id="@+id/editTextPageName"
+=======
+<<<<<<< HEAD
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        android:layout_width="410dp"-->
+<!--        android:layout_height="460dp"-->
+<!--        android:layout_above="@+id/buttonAddRoom"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_constraintVertical_bias="0.0"-->
+<!--        android:layout_marginTop="65dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+    <TextView
+        android:id="@+id/total_price"
+=======
+        <ImageButton
+            android:id="@+id/plusBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/plus"/>
+
+    <TextView
+        android:id="@+id/editTextPageName"
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
+<<<<<<< HEAD
         android:hint="Page Name" />
+=======
+        android:textColor="#f40d30"
+        android:textStyle="bold"
+        android:text="總金額"
+        android:textSize="30sp"/>
+<!--        android:hint="Page Name" />-->
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
 </RelativeLayout>

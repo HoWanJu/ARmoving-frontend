@@ -11,10 +11,10 @@ class MeasuringActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_measuring)
 
-//        val button = findViewById<ImageButton>(R.id.measure_done)
-//        button.setOnClickListener {
-//            val intent = Intent(this, FurnitureActivity::class.java)
-//            startActivity(intent)
-//        }
+        val button = findViewById<ImageButton>(R.id.measure_done)
+        button.setOnClickListener {
+            val intent = Intent(this, FurnitureActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

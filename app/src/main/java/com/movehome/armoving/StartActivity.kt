@@ -6,9 +6,20 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+<<<<<<< HEAD
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+=======
+<<<<<<< HEAD
+import com.movehome.armoving.ArcoreMeasurement
+
+=======
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
 
 class StartActivity : AppCompatActivity() {
 
@@ -21,6 +32,7 @@ class StartActivity : AppCompatActivity() {
         val BTN_bath = findViewById<Button>(R.id.btn_bath)
         val BTN_reading = findViewById<Button>(R.id.btn_reading)
         val etMessage = findViewById(R.id.custom) as EditText
+<<<<<<< HEAD
 
         BTN_living.setOnClickListener {
             val editText = findViewById(R.id.custom) as EditText
@@ -34,6 +46,49 @@ class StartActivity : AppCompatActivity() {
             editText.setTextColor(Color.BLACK)
         }
 
+=======
+<<<<<<< HEAD
+        button.setOnClickListener {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            val intent = Intent(this, ArcoreMeasurement::class.java)
+=======
+            val intent = Intent(this, MeasuringActivity::class.java)
+>>>>>>> eec795d70d535bd0eab3e1d0c2ca38291b94db0f
+=======
+            val intent = Intent(this, MeasuringActivity::class.java)
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
+            startActivity(intent)
+        }
+
+        BTN_living.setOnClickListener {
+            val editText = findViewById(R.id.custom) as EditText
+            editText.setText("客廳", TextView.BufferType.EDITABLE)
+            editText.setTextColor(Color.BLACK)
+        }
+
+        BTN_kitchen.setOnClickListener {
+            val editText = findViewById(R.id.custom) as EditText
+            editText.setText("廚房", TextView.BufferType.EDITABLE)
+            editText.setTextColor(Color.BLACK)
+        }
+
+=======
+
+        BTN_living.setOnClickListener {
+            val editText = findViewById(R.id.custom) as EditText
+            editText.setText("客廳", TextView.BufferType.EDITABLE)
+            editText.setTextColor(Color.BLACK)
+        }
+
+        BTN_kitchen.setOnClickListener {
+            val editText = findViewById(R.id.custom) as EditText
+            editText.setText("廚房", TextView.BufferType.EDITABLE)
+            editText.setTextColor(Color.BLACK)
+        }
+
+>>>>>>> dd41ffa0144c8bc6cca38f47de041dcd5155d4c9
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
         BTN_bath.setOnClickListener {
             val editText = findViewById(R.id.custom) as EditText
             editText.setText("浴室", TextView.BufferType.EDITABLE)
@@ -51,7 +106,17 @@ class StartActivity : AppCompatActivity() {
 
             //check if the EditText have values or not
             if(msg.trim().length>0) {
+<<<<<<< HEAD
                 val intent = Intent(this, MainActivity::class.java)
+=======
+<<<<<<< HEAD
+                val intent = Intent(this, MeasuringActivity::class.java)
+=======
+                //passing value to the next page
+                val intent = Intent(this, MainActivity::class.java)
+                intent.putExtra("Page", msg)
+>>>>>>> dd41ffa0144c8bc6cca38f47de041dcd5155d4c9
+>>>>>>> 9c9c14e62f40179208aad2a60f4f0b50314cc800
                 startActivity(intent)
             }else{
                 Toast.makeText(applicationContext, "請輸入所在位置! ", Toast.LENGTH_SHORT).show()
