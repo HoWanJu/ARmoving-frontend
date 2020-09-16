@@ -23,8 +23,13 @@
             android:id="@+id/distance_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+<<<<<<< HEAD
             android:layout_weight="0.5"
             android:layout_gravity="bottom"
+=======
+            android:layout_gravity="bottom"
+            android:layout_weight="0.5"
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
             android:gravity="center"
             android:padding="8dp"
             android:textColor="@android:color/white"
@@ -44,29 +49,49 @@
             android:spinnerMode="dialog" />
 
         <Button
+<<<<<<< HEAD
             android:id="@+id/clearButton"
+=======
+            android:id="@+id/doneButton"
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.5"
             android:background="#18489B"
             android:fontFamily="sans-serif-thin"
+<<<<<<< HEAD
             android:text="@string/clear"
+=======
+            android:text="done"
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="14sp" />
 
         <Button
+<<<<<<< HEAD
             android:id="@+id/doneButton"
+=======
+            android:id="@+id/clearButton"
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.5"
             android:background="#18489B"
             android:fontFamily="sans-serif-thin"
+<<<<<<< HEAD
             android:text="done"
+=======
+            android:text="@string/clear"
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="14sp" />
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

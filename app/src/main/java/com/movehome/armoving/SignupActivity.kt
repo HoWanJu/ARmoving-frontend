@@ -60,7 +60,7 @@ class SignupActivity : AppCompatActivity() {
 //        setResult(Activity.RESULT_OK, null)
 //        finish()
         startActivity(Intent(this, InfoActivity::class.java))
-        finish()
+//        finish()
     }
 
     fun onSignupFailed() {

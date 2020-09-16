@@ -2,7 +2,21 @@
 <resources>
     <color name="colorPrimary">#19B0ED</color>
     <color name="blackColor">#000 </color>
+<<<<<<< HEAD
     <color name="colorPrimaryGreen">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+=======
+
+    <color name="primary">#388e3c</color>
+    <color name="primaryDark">#2e7d32</color>
+    <color name="accent">#4caf50</color>
+    <color name="ripple">#81c784</color>
+
+<<<<<<< HEAD
+=======
+    <color name="colorPrimaryGreen">#008577</color>
+
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
 </resources>

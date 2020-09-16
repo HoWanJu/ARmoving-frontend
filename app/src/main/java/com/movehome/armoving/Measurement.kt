@@ -14,6 +14,10 @@ import android.view.Gravity
 import android.view.MotionEvent
 import android.view.View
 import android.widget.*
+<<<<<<< HEAD
+=======
+import androidx.activity.OnBackPressedCallback
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
 import com.google.ar.core.*
 import com.google.ar.sceneform.AnchorNode
 import com.google.ar.sceneform.FrameTime
@@ -83,8 +87,12 @@ class Measurement : AppCompatActivity(), Scene.OnUpdateListener {
         setContentView(R.layout.activity_measurement)
         val button = findViewById<Button>(R.id.doneButton)
         button.setOnClickListener {
+<<<<<<< HEAD
             val intent = Intent(this, FurnitureActivity::class.java)
             startActivity(intent)
+=======
+            System.exit(0)
+>>>>>>> 0063abe9180bc47b02d4e35f57c7c7bd851cd55e
         }
         val distanceModeArray = resources.getStringArray(R.array.distance_mode)
         distanceModeArray.map{it->
