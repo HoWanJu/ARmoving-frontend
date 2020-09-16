@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.movehome.armoving.ArcoreMeasurement
+
 
 class StartActivity : AppCompatActivity() {
 
@@ -13,7 +15,7 @@ class StartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start)
         val button = findViewById<Button>(R.id.btn_submit)
         button.setOnClickListener {
-            val intent = Intent(this, FurnitureActivity::class.java)
+            val intent = Intent(this, ArcoreMeasurement::class.java)
             startActivity(intent)
         }
     }
