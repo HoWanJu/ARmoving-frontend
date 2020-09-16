@@ -23,6 +23,7 @@
         <activity android:name=".InfoActivity" />
         <activity android:name=".IntroActivity" />
         <activity android:name=".FurnitureActivity" />
+<<<<<<< HEAD
 <!--        <activity android:name=".MeasuringActivity" />-->
         <activity
             android:name=".ArcoreMeasurement"
@@ -30,6 +31,9 @@
             android:exported="true"
             android:screenOrientation="locked"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
+=======
+        <activity android:name=".MeasuringActivity" />
+>>>>>>> eec795d70d535bd0eab3e1d0c2ca38291b94db0f
         <activity android:name=".StartActivity">
         <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

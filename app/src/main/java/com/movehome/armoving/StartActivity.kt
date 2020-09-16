@@ -15,7 +15,11 @@ class StartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start)
         val button = findViewById<Button>(R.id.btn_submit)
         button.setOnClickListener {
+<<<<<<< HEAD
             val intent = Intent(this, ArcoreMeasurement::class.java)
+=======
+            val intent = Intent(this, MeasuringActivity::class.java)
+>>>>>>> eec795d70d535bd0eab3e1d0c2ca38291b94db0f
             startActivity(intent)
         }
     }
