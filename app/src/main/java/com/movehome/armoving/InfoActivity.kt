@@ -107,7 +107,7 @@ class InfoActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 //        setResult(Activity.RESULT_OK, null)
 //        finish()      // default
         startActivity(Intent(this, ThanksActivity::class.java))
-        finish()
+//        finish()
     }
 
     fun onFailed() {
