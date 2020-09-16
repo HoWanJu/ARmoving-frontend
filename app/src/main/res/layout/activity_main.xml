@@ -16,7 +16,11 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/fragmentParent"
         android:layout_alignRight="@+id/fragmentParent"
+<<<<<<< HEAD
         android:layout_alignBottom="@+id/total_price"
+=======
+        android:layout_alignBottom="@+id/editTextPageName"
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
         android:layout_marginEnd="66dp"
         android:layout_marginRight="66dp"
         android:layout_marginBottom="0dp"
@@ -30,7 +34,11 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/fragmentParent"
         android:layout_alignRight="@+id/fragmentParent"
+<<<<<<< HEAD
         android:layout_alignBottom="@+id/total_price"
+=======
+        android:layout_alignBottom="@+id/editTextPageName"
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="-1dp"
@@ -49,6 +57,7 @@
         android:layout_alignParentRight="true"
         tools:layout="@layout/fragment_parent" />
 
+<<<<<<< HEAD
 <!--    <androidx.recyclerview.widget.RecyclerView-->
 <!--        android:id="@+id/recyclerView"-->
 <!--        android:layout_width="410dp"-->
@@ -63,6 +72,19 @@
 
     <TextView
         android:id="@+id/total_price"
+=======
+        <ImageButton
+            android:id="@+id/plusBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/plus"/>
+
+    <TextView
+        android:id="@+id/editTextPageName"
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

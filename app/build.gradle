@@ -22,6 +22,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 
 }
 
@@ -37,6 +41,11 @@ dependencies {
     implementation 'com.google.ar:core:1.19.0'
     implementation group: 'com.google.android.material', name: 'material', version: '1.3.0-alpha02'
     implementation 'androidx.viewpager:viewpager:1.0.0'
+<<<<<<< HEAD
+=======
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'
+    implementation 'com.google.ar.sceneform:core:1.17.1'
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'com.google.android.material:material:1.3.0-alpha02'
     implementation 'com.google.android.material:material:1.3.0-alpha02'

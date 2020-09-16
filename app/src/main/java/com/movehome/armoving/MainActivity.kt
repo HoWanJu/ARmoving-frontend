@@ -7,11 +7,19 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
+<<<<<<< HEAD
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.recyclerView
+=======
+import android.widget.ImageButton
+import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
 
 class MainActivity : AppCompatActivity() {
     var buttonAddPage: Button? = null
@@ -43,6 +51,7 @@ class MainActivity : AppCompatActivity() {
             buttonAddRoom.setOnClickListener {
                 val intent = Intent(this, StartActivity::class.java)
                 startActivity(intent)
+<<<<<<< HEAD
 
         val arrayList = ArrayList<FurnitureModel>()
         arrayList.add(FurnitureModel("closet", "Here are closet des", R.drawable.closet))
@@ -59,6 +68,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             }
         }
+=======
+        }
+
+        //add image
+        val plusBtn = findViewById<ImageButton>(R.id.plusBtn)
+        plusBtn.setOnClickListener{
+            val intent = Intent(this, ArcoreMeasurement::class.java)
+            startActivity(intent)}
+>>>>>>> a26060538daa417a4c299e247105656f0e8bbbcb
     }
 
     private val iDs: Unit
